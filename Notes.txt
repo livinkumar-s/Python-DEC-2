@@ -59,3 +59,63 @@ int(obj) --> converts into int
 str(obj)
 float(obj)
 bool(obj)
+
+2's Comp ---> 1's comp + 1
+
+binary add 
+----------
+0+0=0
+0+1=1
+1+0=1
+1+1=10
+1+1+1=11
+
+Operators 
+----------
+>> Operators are symbol or keyword that performs an operation on operands.
+
+Ex: 5 + 6 = 11
+
+Arithmetic Operators 
+-----------------------
+Addition --> +
+Subtraction --> -
+Multiplication ---> *
+Division ---> /
+Floor division --> // 
+Modulus --> % (reminder). Ex: 3%6 --> 6*0 --> 0 --> 3
+Expo--> **
+
+Comparison Operators (Boolean)
+----------------------
+== equal 
+!= not equal
+< less than
+> gret than 
+<= less or equal
+>= great or equal
+
+Logical operators (Boolean)
+--------------------
+and --> True --> Both are True
+or --> True --> any one is True
+not --> True --> 
+
+Assignment Operators 
+----------------------
+= --> assign
++= --> add and assign
+-=
+*=
+/=
+//=
+%=
+**=
+
+Bitwise Operators 
+------------------
+And --> & ---> performs and operation with bits.
+Or ---> | --> performs or operation with bits
+Not --> ~ Ex: ~num. ~num=-(num+1)
+Left shift --> << --> moves the bits towards left. num<<pos
+Right shift --> >> --> moves bits towords right
