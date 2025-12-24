@@ -119,3 +119,45 @@ Or ---> | --> performs or operation with bits
 Not --> ~ Ex: ~num. ~num=-(num+1)
 Left shift --> << --> moves the bits towards left. num<<pos
 Right shift --> >> --> moves bits towords right
+
+Control flow Statements
+---------------------
+>> Conditional Clause 
+>> Loops 
+
+Conditional Clause
+--------------------
+>> Using Conditional Clause we can make python to take decisions.
+
+if
+----
+Syntax:
+---------
+if expression:
+    block of code
+True --> block will get executed. False --> Not executed
+
+elif
+------
+Syntax 
+-------
+elif expression:
+    block of code
+True --> block will get executed. False --> Not executed
+
+else 
+-----
+Syntax
+--------
+else:
+    block of code
+if fails ---> It runs.
+
+Nested If 
+----------
+If block inside another.
+Syntax
+------
+if cond1:
+    if cond2:
+        block of code
