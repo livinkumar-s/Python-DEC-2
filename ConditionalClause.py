@@ -46,15 +46,15 @@
 # else:
 #     print("Invalid marks")
 
-a=15
+# a=15
 
-if a>10:
-    if a>15:
-        print("Very large")
-    else:
-        print("large")
-else:
-    if a<5:
-        print("Very small")
-    else:
-        print("small")
+# if a>10:
+#     if a>15:
+#         print("Very large")
+#     else:
+#         print("large")
+# else:
+#     if a<5:
+#         print("Very small")
+#     else:
+#         print("small")
