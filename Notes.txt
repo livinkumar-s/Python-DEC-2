@@ -123,12 +123,25 @@ Right shift --> >> --> moves bits towords right
 
 Sequence or Iterable Object 
 ----------------------------
+>> It is an object thatbcan return its elements one at a time.
+Ex: String, range, list, tuple, dict.....
+
 find the length of iterObj --> len(iterObj)
 
+Indexing
+----------
 "hello" --> "l"
-index number ---> 0,1,2,3,4
+index number ---> pos--->0,1,2,3,4..., neg --> -1,-2.....
 IterableObject[ind]
 
+Slicing 
+--------
+>> Extracting a part of xisting sequence.
+obj[start:]
+obj[:end]  --> ignores the given index
+obj[start:end]
+obj[start:end:step]
+obj[::-1]
 
 Control flow Statements
 ---------------------
@@ -204,3 +217,55 @@ Control Statements
 --------------------
 break ---> it will stop a loop
 continue ---> it will skip the current iteration.
+
+Datastructures 
+---------------
+
+List
+-------
+>> Collection of elements encolsed with --> [ele1,ele2,ele3......]
+>> Mutable
+>> Ordered
+>> Allows duplicates
+
+In built methods 
+------------------
+.append(ele) --->add ele at the end 
+.extend(iterObj) ---> add multiple elements in one go
+.insert(pos, ele) ---> add an element at the specific position.
+
+.remove(ele) ---> removes an element by mentioning it.(first occur)
+.pop(ind)
+.pop()
+.clear()
+
+.index(ele) --> index number of given element.
+.count(ele) --> number of occur.
+
+.sort()
+.reverse()
+
+Tuple 
+-------
+>> (ele1,ele2,ele3,ele4....)
+>> Immutable
+>> Ordered
+>> It allows duplicate 
+>> Faster than lists
+
+In built methods 
+-------------------
+.index(ele) --> index number of given element.
+.count(ele) --> number of occur.
+
+Packing/Unpacking
+------------------
+person=(
+    "Muthumani",
+    90
+)
+
+name=person[0]
+age=person[1]
+
+name,age=person
