@@ -52,6 +52,14 @@
 
 # print(a)
 
+# lis=[i*2 for i in range(1,51)]
+
+# for i in range(1,51):
+#     lis.append(i*2)
+
+# print(lis)
+
+
 # Tuple
 
 # tup1= (11,2,1,1,11,12,34)
@@ -82,9 +90,47 @@
 # print(name)
 # print(age)
 
-lis1=[1,2,3,[4,5,"six",["seven","eight","nine",["ten","eleven"]]]]
+# lis1=[1,2,3,[4,5,"six",["seven","eight","nine",["ten","eleven"]]]]
 
-# print(len(lis1))
+# # print(len(lis1))
     
-# print(lis1[3][3][3][1])
-print(lis1[-1][-1][-1][-1][-1])
+# # print(lis1[3][3][3][1])
+# print(lis1[-1][-1][-1][-1][-1])
+
+
+# Set
+
+# set1={10,22,10,1,2,3,6,4,5,5}
+# set2={5,6,7,8,9,10,11,12,13,14}
+
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1.difference(set2))
+# print(set2.difference(set1))
+
+# print(set1)
+
+
+# Dict 
+
+# dict1={
+#     "name":"Prabhas",
+#     "age":47,
+#     "isMarried":True,
+#     1:"One"
+# }
+
+# dict1["age"]=46
+# dict1["latestMovie"]="Salaar"
+
+# print(dict1.keys())
+# print(dict1.values())
+# print(dict1.items())
+
+
+# dict1.pop(1)
+# dict1.clear()
+
+# print(dict1)
+
+# print({i:i*i*i for i in range(1,101)})

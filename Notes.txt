@@ -269,3 +269,36 @@ name=person[0]
 age=person[1]
 
 name,age=person
+
+Set 
+-----
+>> {ele1,ele2....}
+it won't allow duplicates.
+iterable object.
+unordered.
+mutable
+
+in built methods
+--------------------
+.union(set)
+.intersection(set)
+.difference(set)
+.add(ele)
+.remove(ele)
+.pop()
+.clear()
+
+Dict 
+-------
+>> {key1:val1, key2:val2,......}
+>> Mutable 
+>> values cab be repeated.. but key should not.
+>> Iterable
+
+In built methods 
+--------------------
+.keys() --> return all keys in a dicts in form of list like datastructure.
+.values() --> return all values in a dicts in form of list like datastructure.
+.items() --> return all keys and values in a dicts in form of list like datastructure.
+.pop("key)
+.clear()
