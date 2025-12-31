@@ -302,3 +302,33 @@ In built methods
 .items() --> return all keys and values in a dicts in form of list like datastructure.
 .pop("key)
 .clear()
+
+Functions 
+--------------
+>> It is a block of reusable code that performs a specific task.
+
+>> In built Functions --> print(), input()
+>> User defined Functions
+
+Syntax 
+----------
+def fnName():
+    block of code
+
+calling(invoking) --> fnName()
+
+Parameter and Argument
+-----------------------
+P --> Variables that we would create while initiating a function without value.
+
+A --> The values that we would assign to those parameters while calling the function
+
+Types of Arguments
+-------------------
+Positional Arguments ---> Order matters
+Keyword Arguements ---> passing arguments with name
+Default Arguments --> assigning default values for parameters.
+Variable length arguements ---> *args, **args
+
+Scopes
+---------
