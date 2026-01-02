@@ -37,7 +37,40 @@
 
 # sumNum(9,9,9,4,5,3,54,43,3,2,43,2,43,231)
 
-def collectData(**a):
-    print(a)
+# def collectData(**a):
+#     print(a)
 
-collectData(name="hendry",age=45,isMarried=True)
+# collectData(name="hendry",age=45,isMarried=True)
+
+# a=10
+
+# def func1():
+#     a=15
+#     print("The value of A in: "+str(a))
+
+# func1()
+# print("The value of A out: "+str(a))
+
+
+# Return
+
+# def dummy():
+#     print("Step1")
+#     print("Step2")
+#     return
+#     print("Step3")
+#     print("Step4")
+#     print("Step5")
+
+# a=dummy()
+# print(a)
+
+# def addNum(a,b):
+#     return a+b 
+
+# print(addNum(4,5))
+
+# def mulNum(a,b):
+#     return a*b 
+
+# print(mulNum(3,mulNum(2,mulNum(1,mulNum(-2,2)))))

@@ -46,7 +46,31 @@ Datatypes
 Integer --> Whole Numbers 
 Float --> Decimal Numbers 
 String ---> Sequence of chars' enclosed in either '' or "". Ex: "Hello"
+
+Operations
+-----------
 Concatination: str1+str2
+Repetition: str1*2
+Membership Operation: in, not in (boolean)
+
+In built methods 
+------------------
+.upper()
+.lower()
+.title()
+
+.find() --> -1
+.count()
+
+.isAlpha()
+.isAlnum()
+.isdigit()
+.startswith("subStr")
+.endswith("subStr")
+
+.split(char) --> str --> lis
+.join(iter) ---> lis --> str
+
 Formatted String 
 
 Boolean ---> True/False
@@ -330,5 +354,15 @@ Keyword Arguements ---> passing arguments with name
 Default Arguments --> assigning default values for parameters.
 Variable length arguements ---> *args, **args
 
+Return 
+-------
+>> to break a function.
+>> to return a data to the caller.
+
+
 Scopes
 ---------
+>> It defines where a variable can be accessed in a program.
+
+>>> Global Scope ---> it is created outside all the functions
+>>> local Scope ---> it is created in any function
