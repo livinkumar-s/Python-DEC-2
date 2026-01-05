@@ -2,7 +2,7 @@ Python:
 ------------
 Python is a high-level, interpreted, general-purpose programming language.
        
-            Compilation            Interpretation
+            Compilation            Interpretation (Runtime)
 Human Written    --->     Byte Code  --->     Machine Code
 Code                (000 1111 111000)    (Computer can Understand)
 
@@ -366,3 +366,27 @@ Scopes
 
 >>> Global Scope ---> it is created outside all the functions
 >>> local Scope ---> it is created in any function
+
+
+Errors
+-------
+>> It is a problem that occurs when the program cannot be executed correctly. Errors stop the program.
+
+Syntax Errors (Cannot handle it)
+---------------
+>> It will occur when python grammer is broken.
+Ex: IndentationError, SyntaxError
+
+Runtime Error (Exception) (it will be caught during Interpretation)(It can be handled)
+---------------
+>> Occurs while the program is running.
+Ex: TypeError, ValueError, ZeroDivisionError........
+
+Exception Handling
+---------------------
+try:
+    block of code
+except nameError:
+    block of code
+finally:
+    block of code

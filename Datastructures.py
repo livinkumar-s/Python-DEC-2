@@ -134,3 +134,11 @@
 # print(dict1)
 
 # print({i:i*i*i for i in range(1,101)})
+
+a=[1,2,3,22,1]
+
+# a.reverse()
+# print(a[::-1])
+
+if a==a[::-1]:
+    print("Pal")
