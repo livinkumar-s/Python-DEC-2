@@ -390,3 +390,26 @@ except nameError:
     block of code
 finally:
     block of code
+
+File Handling 
+-------------
+>> It allows a program to manipulate the data stored in a file.
+
+To open a file in Py ---> open(addr, mode)
+To close a file --> file.close()
+
+to read all the contents ---> .read()
+to read tre content line by line --->.readline()
+to read tre content line by line --->.readlines()
+
+to write content ---> .write(content)
+
+Modes
+------
+r ---> Read
+w ---> write (over writing)
+a ---> append (adding content)
+
+
+OOP Intro 
+----------
