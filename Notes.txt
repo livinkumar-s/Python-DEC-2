@@ -413,3 +413,24 @@ a ---> append (adding content)
 
 OOP Intro 
 ----------
+>> OOP is a programming pattern (using class and objects).
+
+Water Bottle ---> Width, Color  -------> open, close
+                 (attriubutes or info)    (methods)
+Blue Print ----> defining informations ---> defining ,methods
+
+Object ----> Attributes(Properties) ---> methods
+Class ---> define attributes --> methods
+
+single class ---> obj1, obj2, obj3.........
+
+Syntax:
+---------
+
+self ---> it is a class function
+
+class Classname:
+    attributes 
+    def __init__():
+        defining attributes
+    methods
