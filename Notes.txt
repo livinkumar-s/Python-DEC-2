@@ -434,3 +434,7 @@ class Classname:
     def __init__():
         defining attributes
     methods
+
+
+    API(fastAPI, Django, Flask)
+frontend  ---->   python(backend)  ---> DB
